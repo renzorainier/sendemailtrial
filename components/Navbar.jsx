@@ -52,7 +52,7 @@ function Navbar() {
               </div>
           </div>
           <div className="border-b border-gray-300 my-4">
-            <p>Let's build something legendary together</p>
+            <p className="w-[85%] md:w-[90%] py-4">Let's build something legendary together</p>
           </div>
         </div>
         </div>
