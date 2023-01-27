@@ -52,6 +52,7 @@ function Navbar() {
               </div>
           </div>
         </div>
+          <p>Let's build something legendary together</p>
         </div>
 
       </div>
