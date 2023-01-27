@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai"
 import { FaLinkedIn, FaGithub } from "react-icons/fa"
 import { BsFillPersonLinesFill } from "react-icons/bs"
 
-function Navbar() {
+const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
