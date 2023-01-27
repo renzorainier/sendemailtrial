@@ -1,11 +1,19 @@
 import Image from "next/image"
 import Link from 'next/link'
-import React from "react"
+import React, { useState } from "react"
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai"
 import { FaFacebook, FaGithub } from "react-icons/fa"
 import { BsFillPersonLinesFill } from "react-icons/bs"
 
 const Navbar = () => {
+
+  const[nav, setNav] = usedState(false)
+
+  const handleNav = () => {
+    setNav(true)
+  }
+
+
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
@@ -33,7 +41,7 @@ const Navbar = () => {
                 <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
               </Link>
             </ul>
-          <div className="md:hidden">
+          <div on className="md:hidden">
             <AiOutlineMenu size={25}/>
           </div>
         </div>
