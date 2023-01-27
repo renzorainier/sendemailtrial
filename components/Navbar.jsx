@@ -8,7 +8,7 @@ function Navbar() {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/640px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg"
-        wdith="125"
+        width="125"
         height="50"
         />
         <div>
