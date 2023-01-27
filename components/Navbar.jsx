@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Link from 'react'
+import Link from 'next/link'
 import React from "react"
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
 
@@ -30,7 +30,7 @@ function Navbar() {
               <Link href="/">
                 <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
               </Link>
-          </ul>
+            </ul>
           <div className="md:hidden">
             <AiOutlineMenu size={25}/>
           </div>
