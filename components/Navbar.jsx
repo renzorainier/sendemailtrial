@@ -51,10 +51,11 @@ function Navbar() {
                 <AiOutlineClose/>
               </div>
           </div>
+          <div className="border-b border-gray-300 my-4">
+            <p>Let's build something legendary together</p>
+          </div>
         </div>
-          <p>Let's build something legendary together</p>
         </div>
-
       </div>
     </div>
   )
