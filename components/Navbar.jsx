@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from 'next/link'
 import React from "react"
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai"
-import { FaLinkedIn, FaGithub } from "react-icons/fa"
+import { FaFacebook, FaGithub } from "react-icons/fa"
 import { BsFillPersonLinesFill } from "react-icons/bs"
 
 const Navbar = () => {
@@ -81,7 +81,7 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                  < FaLinkedIn />
+                  <FaFacebook />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
                   <FaGithub />
