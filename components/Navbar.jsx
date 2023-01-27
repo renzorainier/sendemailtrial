@@ -1,9 +1,9 @@
 import Image from "next/image"
 import Link from 'next/link'
 import React from "react"
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
-import { FaLinkedIn } from "react-icons/fa"
-
+import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai"
+import { FaLinkedIn, FaGithub } from "react-icons/fa"
+import { BsFillPersonLinesFill } from "react-icons/bs"
 
 function Navbar() {
   return (
