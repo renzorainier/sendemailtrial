@@ -9,9 +9,28 @@ function Navbar() {
         <Image
         src="/../public/assets/netflix.png"
         alt="/"
-        width="125"
-        height="50"
+        width="100"
+        height="100"
         />
+        <div>
+          <ul className="hidden md:flex">
+            <Link href="/">
+                <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              </Link>
+              <Link href="/">
+                <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              </Link>
+              <Link href="/">
+                <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              </Link>
+              <Link href="/">
+                <li className="ml-10 text-sm uppercase hover:border-b">Projects</li>
+              </Link>
+              <Link href="/">
+                <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
+              </Link>
+          </ul>
+        </div>
       </div>
     </div>
   )
