@@ -72,8 +72,10 @@ function Navbar() {
             <Link href="/">
               <li className="py-4 text-sm">Contact</li>
             </Link>
-
           </ul>
+          <div className="pt-40">
+            <p className="uppercase tracking-widest text-[#5651e5]">Let's Connect </p>
+          </div>
         </div>
         </div>
       </div>
