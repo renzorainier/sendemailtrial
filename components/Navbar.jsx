@@ -4,6 +4,7 @@ import React from "react"
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
 import { FaLinkedIn } from "react-icons/fa"
 
+
 function Navbar() {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
@@ -83,13 +84,13 @@ function Navbar() {
                 <FaLinkedIn />
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                <FaLinkedIn />
+                <FaGithub />
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                <FaLinkedIn />
+                <AiOutlineMail />
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                <FaLinkedIn />
+                <BsFillPersonLinesFill />
               </div>
             </div>
           </div>
