@@ -55,6 +55,26 @@ function Navbar() {
             <p className="w-[85%] md:w-[90%] py-4">Let's build something legendary together</p>
           </div>
         </div>
+        <div>
+          <ul className="uppercase">
+            <Link href="/">
+              <li className="py-4 text-sm">Home</li>
+            </Link>
+            <Link href="/">
+              <li className="py-4 text-sm">About</li>
+            </Link>
+            <Link href="/">
+              <li className="py-4 text-sm">Skills</li>
+            </Link>
+            <Link href="/">
+              <li className="py-4 text-sm">Projects</li>
+            </Link>
+            <Link href="/">
+              <li className="py-4 text-sm">Contact</li>
+            </Link>
+
+          </ul>
+        </div>
         </div>
       </div>
     </div>
