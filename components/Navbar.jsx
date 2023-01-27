@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from 'react'
 import React from "react"
-import {AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
 
 function Navbar() {
   return (
