@@ -21,7 +21,9 @@ function About() {
           </p>
           <p>Check out some of my latest projects</p>
         </div>
-        <div></div>
+        <div>
+          <img src="" alt="" />
+        </div>
       </div>
     </div>
   );
