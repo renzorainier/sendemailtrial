@@ -21,7 +21,7 @@ function About() {
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">Check out some of my latest projects</p>
         </div>
-        <div>
+        <div className="w-full h-auto m-auto shadow-gray-400 rounded-xl flex items-center justify-center">
           <img src="https://images.unsplash.com/photo-1579403124614-197f69d8187b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
         </div>
       </div>
