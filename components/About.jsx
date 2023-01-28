@@ -22,7 +22,7 @@ function About() {
           <p>Check out some of my latest projects</p>
         </div>
         <div>
-          <img src="" alt="" />
+          <img src="https://images.unsplash.com/photo-1579403124614-197f69d8187b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
         </div>
       </div>
     </div>
