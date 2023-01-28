@@ -18,16 +18,16 @@ function Main() {
                         Just a simple guy who is addicted to coding
                     </p>
                     <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500">
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-150 ease-in duration-200">
                             <FaFacebook />
                         </div>
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500">
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-150 ease-in duration-200">
                             <FaGithub />
                         </div>
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500">
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-150 ease-in duration-200">
                             <AiOutlineMail />
                         </div>
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500">
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-150 ease-in duration-200">
                             <BsFillPersonLinesFill />
                         </div>
                     </div>
