@@ -5,10 +5,10 @@ function About() {
     <div className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p>About</p>
-          <h2>Who I am</h2>
-          <p>//I am a beginner developer</p>
-          <p>
+          <p className="uppercase text-xl tracking-widest text-[#5651e1]">About</p>
+          <h2 className="py-4">Who I am</h2>
+          <p className="py-2 text-gray-600">//I am a beginner developer</pcal>
+          <p className="py-2 text-gray-600">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             facilisis, orci sit amet rhoncus ornare, sem lacus placerat erat, in
             blandit lacus est a diam. Fusce arcu eros, congue ac lorem sit amet,
