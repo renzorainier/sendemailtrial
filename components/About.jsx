@@ -17,9 +17,9 @@ function About() {
             purus. In hac habitasse platea dictumst. Sed ut cursus nunc. Class
             aptent taciti sociosqu ad litora torquent per conubia nostra, per
             inceptos himenaeos. Curabitur non elit at velit faucibus lacinia.
-            Aliquam vel erat urna.
+          Aliquam vel erat urna.
           </p>
-          <p>Check out some of my latest projects</p>
+          <p className="py-2 text-gray-600 underline cursor-pointer">Check out some of my latest projects</p>
         </div>
         <div>
           <img src="https://images.unsplash.com/photo-1579403124614-197f69d8187b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
