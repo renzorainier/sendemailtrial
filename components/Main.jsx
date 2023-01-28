@@ -1,4 +1,8 @@
 import React from 'react'
+import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai"
+import { FaFacebook, FaGithub } from "react-icons/fa"
+import { BsFillPersonLinesFill } from "react-icons/bs"
+
 
 function Main() {
     return (
@@ -14,8 +18,17 @@ function Main() {
                         Just a simple guy who is addicted to coding
                     </p>
                     <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-                        <div className="">
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500">
                             <FaFacebook />
+                        </div>
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500">
+                            <FaGithub />
+                        </div>
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500">
+                            <AiOutlineMail />
+                        </div>
+                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500">
+                            <BsFillPersonLinesFill />
                         </div>
                     </div>
 
