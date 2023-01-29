@@ -38,7 +38,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justfify-center">
-                <h3>HTML</h3>
+                <h3>CSS</h3>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justfify-center">
-                <h3>HTML</h3>
+                <h3>JavaScript</h3>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justfify-center">
-                <h3>HTML</h3>
+                <h3>React</h3>
               </div>
             </div>
           </div>
@@ -76,14 +76,14 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/skills/html.png"
+                  src="/../public/skills/tailwind.png"
                   width="64"
                   height="64"
                   alt="/"
                 />
               </div>
               <div className="flex flex-col items-center justfify-center">
-                <h3>HTML</h3>
+                <h3>Tailwindcss</h3>
               </div>
             </div>
           </div>
@@ -91,14 +91,14 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/skills/html.png"
+                  src="/../public/skills/firebase.png"
                   width="64"
                   height="64"
                   alt="/"
                 />
               </div>
               <div className="flex flex-col items-center justfify-center">
-                <h3>HTML</h3>
+                <h3>Firebase</h3>
               </div>
             </div>
           </div>
@@ -106,14 +106,14 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/skills/html.png"
+                  src="/../public/skills/github.png"
                   width="64"
                   height="64"
                   alt="/"
                 />
               </div>
               <div className="flex flex-col items-center justfify-center">
-                <h3>HTML</h3>
+                <h3>Github</h3>
               </div>
             </div>
           </div>
@@ -121,18 +121,18 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/skills/html.png"
+                  src="/../public/skills/shopify.png"
                   width="64"
                   height="64"
                   alt="/"
                 />
               </div>
               <div className="flex flex-col items-center justfify-center">
-                <h3>HTML</h3>
+                <h3>Shopify</h3>
               </div>
             </div>
           </div>
-          
+
 
 
         </div>
