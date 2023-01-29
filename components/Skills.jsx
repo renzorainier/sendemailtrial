@@ -15,10 +15,13 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/../public/assets/skills/html.png"
-                  width="64"
-                  heigth="64px"
+                  width="64px"
+                  height="64px"
                   alt="/"
                 />
+              </div>
+              <div>
+                <h3>HTML</h3>
               </div>
             </div>
           </div>
