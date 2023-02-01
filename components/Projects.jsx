@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
+import propertyImg from "../publilc/assets/projects/property.jpg";
+import cryptoImg from "../publilc/assets/projects/crypto.jpg";
 import ProjectItem from "components/Projectitem";
 
 const Projects = () => {
