@@ -1,7 +1,9 @@
 import React from "react";
+import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { HiOutlineChevronDoubleUp } from "react-icons/hi"
 
 function Contact() {
   return (
@@ -93,6 +95,13 @@ function Contact() {
               </form>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center py-12">
+          <Link href="/">
+          <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+              <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30}/>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
