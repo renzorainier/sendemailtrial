@@ -17,10 +17,13 @@ function Contact() {
               <img className="rounded-xl hover:scale-105 ease-in duration-300" src="https://images.unsplash.com/photo-1612296727716-d6c69d2a2cbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt="" />
             </div>
             <div>
-              <h2 className="py-2">Name</h2>
+              <h2 className="py-2">Renz Rainier Pasagdan</h2>
               <p>Front-End Wanna Be</p>
-              <p></p>
+              <p className="py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nulla erat, accumsan dapibus fringilla vel, iaculis id purus. Fusce accumsan quam sed mollis varius. Aliquam dignissim sollicitudin orci, ut commodo turpis porttitor quis. Etiam non risus eget ante suscipit efficitur in quis diam. Nullam dignissim non enim sed scelerisque. Sed posuere in justo sit amet luctus.</p>
             </div>
+          </div>
+          <div>
+            <p className="uppercase pt-8">Connect with me</p>
           </div>
         </div>
 
