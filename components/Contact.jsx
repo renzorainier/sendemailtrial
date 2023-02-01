@@ -39,7 +39,7 @@ function Contact() {
             </div>
             <div>
               <p className="uppercase pt-8">Connect with me</p>
-              <div className="flex items-center justify-betweeen py-4">
+              <div className="flex items-center justify-between py-4">
                 <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
                     <FaFacebook />
