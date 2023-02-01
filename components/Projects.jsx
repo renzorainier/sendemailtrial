@@ -4,9 +4,8 @@ import React from "react";
 import propertyImg from "../public/assets/projects/property.jpg";
 import cryptoImg from "../public/assets/projects/crypto.jpg";
 import netflixImg from "../public/assets/projects/crypto.jpg";
-import Img from "../public/assets/projects/crypto.jpg";
+import twitchImg from "../public/assets/projects/crypto.jpg";
 import ProjectItem from "./ProjectItem";
-
 
 const Projects = () => {
   return (
@@ -25,6 +24,16 @@ const Projects = () => {
           <ProjectItem
             title="Crypto App"
             backgroundImg={cryptoImg}
+            projectUrl="/property"
+          />
+          <ProjectItem
+            title="Twitch App"
+            backgroundImg={twitchImg}
+            projectUrl="/property"
+          />
+          <ProjectItem
+            title="Netflix App"
+            backgroundImg={netflixImg}
             projectUrl="/property"
           />
         </div>
