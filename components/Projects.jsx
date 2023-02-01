@@ -3,6 +3,8 @@ import Image from "next/image";
 import React from "react";
 import propertyImg from "../public/assets/projects/property.jpg";
 import cryptoImg from "../public/assets/projects/crypto.jpg";
+import netflixImg from "../public/assets/projects/crypto.jpg";
+import Img from "../public/assets/projects/crypto.jpg";
 import ProjectItem from "./ProjectItem";
 
 
