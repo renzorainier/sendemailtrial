@@ -5,6 +5,7 @@ import propertyImg from "../publilc/assets/projects/property.jpg";
 import cryptoImg from "../publilc/assets/projects/crypto.jpg";
 import ProjectItem from "./ProjectItem";
 
+
 const Projects = () => {
   return (
     <div className="w-ful">
