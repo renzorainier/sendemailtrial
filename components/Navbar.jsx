@@ -34,7 +34,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image className="rounded-full"
-          src="/../public/assets/me.jpg"
+          src="/../public/assets/hehe.png"
           alt="/"
           width="75"
           height="75"
