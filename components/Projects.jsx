@@ -1,8 +1,8 @@
-import Link from "next/link"
-import Image from "next/image"
+import Link from "next/link";
+import Image from "next/image";
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg"
-import Projectitem from "components/Projectitem"
+import propertyImg from "../public/assets/projects/property.jpg";
+import Projectitem from "components/Projectitem";
 
 const Projects = () => {
   return (
@@ -13,13 +13,15 @@ const Projects = () => {
         </p>
         <h2 className="p-4">What I've Build</h2>
         <div className="grid md:grid-cols-2 gap-8">
-
-        <ProjectItem />
-
+          <ProjectItem
+            title="Property Finder"
+            backgroundImg={propertyImg}
+            projectUrl="/property"
+          />
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Projects;
