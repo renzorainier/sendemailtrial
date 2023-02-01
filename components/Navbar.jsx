@@ -7,25 +7,31 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [shadow, setShadow] = useState(false)
+  const [shadow, setShadow] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
   };
 
-  useEffect(()=> {
+  useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY >= 90) {
-        setShadow(true)
+        setShadow(true);
       } else {
-        setShadow(false)
+        setShadow(false);
       }
     };
-    window.addEventListener('scroll', handleShadow)
-  },[])
+    window.addEventListener("scroll", handleShadow);
+  }, []);
 
   return (
-    <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20  z-[100]"}>
+    <div
+      className={
+        shadow
+          ? "fixed w-full h-20 shadow-xl z-[100]"
+          : "fixed w-full h-20  z-[100]"
+      }
+    >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
           src="/../public/assets/netflix.png"
