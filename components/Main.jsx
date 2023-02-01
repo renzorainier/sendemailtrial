@@ -17,7 +17,7 @@ return (
         </h1>
         <h1 className="py-2 text-gray-700">A Front-End Dev Wanna Be</h1>
         <p className="py-2 text-gray-600 max-w-[70%] m-auto">
-            Just a simple guy who is addicted to coding
+            Just a curious guy who is addicted to coding
         </p>
         <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
