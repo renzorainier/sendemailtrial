@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import propertyImg from "../public/assets/projects/property.jpg";
-import Projectitem from "components/Projectitem";
+import ProjectItem from "components/Projectitem";
 
 const Projects = () => {
   return (
