@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import propertyImg from "../publilc/assets/projects/property.jpg";
 import cryptoImg from "../publilc/assets/projects/crypto.jpg";
-import ProjectItem from "./Projectitem";
+import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
