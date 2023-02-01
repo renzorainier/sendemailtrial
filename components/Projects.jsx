@@ -18,6 +18,11 @@ const Projects = () => {
             backgroundImg={propertyImg}
             projectUrl="/property"
           />
+          <ProjectItem
+            title="Crypto App"
+            backgroundImg={cryptoImg}
+            projectUrl="/property"
+          />
         </div>
       </div>
     </div>
