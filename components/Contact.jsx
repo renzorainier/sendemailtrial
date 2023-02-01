@@ -35,27 +35,61 @@ function Contact() {
                   justo sit amet luctus.
                 </p>
               </div>
-            <div>
-              <p className="uppercase pt-8">Connect with me</p>
-              <div className="flex items-center justify-between py-4">
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                      <FaFacebook />
-                    </div>
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                      <FaGithub />
-                    </div>
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                      <AiOutlineMail />
-                    </div>
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                      <BsFillPersonLinesFill />
-                    </div>
+              <div>
+                <p className="uppercase pt-8">Connect with me</p>
+                <div className="flex items-center justify-between py-4">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                    <FaFacebook />
+                  </div>
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                    <FaGithub />
+                  </div>
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                    <AiOutlineMail />
+                  </div>
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                    <BsFillPersonLinesFill />
+                  </div>
+                </div>
               </div>
-            </div>
             </div>
           </div>
 
           {/* right */}
+
+          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+            <div className="p-4">
+              <form>
+                <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+                  <div className="flex flex-col">
+                    <label className="uppercase text-sm py-2">Name</label>
+                    <input
+                      className="boarder-2 rounded-lg p-3 flex border-gray-300"
+                      type="text"
+                    />
+                  </div>
+                  <div className="flex flex-col">
+                    <label className="uppercase text-sm py-2">Phone Number</label>
+                    <input
+                      className="boarder-2 rounded-lg p-3 flex border-gray-300"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div className="flex flex-col py-2">
+                  <label className="uppercase text-sm py-2">Email</label>
+                  <input
+                      className="boarder-2 rounded-lg p-3 flex border-gray-300"
+                      type="email"
+                    />
+                </div>
+                <div className="flex flex-col py-2">
+                  <label className="uppercase text-sm py-2">Subject</label>
+                  <textarea className="boarder-2 rounded-lg p-3 border-gray-300" rows="10"></textarea>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
