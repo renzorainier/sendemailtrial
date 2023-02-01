@@ -16,6 +16,11 @@ function Contact() {
             <div>
               <img className="rounded-xl hover:scale-105 ease-in duration-300" src="https://images.unsplash.com/photo-1612296727716-d6c69d2a2cbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt="" />
             </div>
+            <div>
+              <h2 className="py-2">Name</h2>
+              <p>Front-End Wanna Be</p>
+              <p></p>
+            </div>
           </div>
         </div>
 
