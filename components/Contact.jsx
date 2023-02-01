@@ -3,7 +3,6 @@ import { AiOutlineMail } from "react-icons/ai";
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
-
 function Contact() {
   return (
     <div className="w-full lg:h-screen">
@@ -40,20 +39,20 @@ function Contact() {
             <div>
               <p className="uppercase pt-8">Connect with me</p>
               <div className="flex items-center justify-between py-4">
-                <div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <FaFacebook />
+                  <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                      <FaFacebook />
+                    </div>
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                      <FaGithub />
+                    </div>
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                      <AiOutlineMail />
+                    </div>
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                      <BsFillPersonLinesFill />
+                    </div>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <BsFillPersonLinesFill />
-                  </div>
-                </div>
               </div>
             </div>
           </div>
