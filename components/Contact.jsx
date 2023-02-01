@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 function Contact() {
   return (
-    <div className="w-full lg:h-screen">
+    <div className="w-full lg:h-screen ">
       <div className="mx-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
@@ -35,11 +35,9 @@ function Contact() {
                   justo sit amet luctus.
                 </p>
               </div>
-            </div>
             <div>
               <p className="uppercase pt-8">Connect with me</p>
               <div className="flex items-center justify-between py-4">
-                  <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
                       <FaFacebook />
                     </div>
@@ -52,8 +50,8 @@ function Contact() {
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
                       <BsFillPersonLinesFill />
                     </div>
-                  </div>
               </div>
+            </div>
             </div>
           </div>
 
