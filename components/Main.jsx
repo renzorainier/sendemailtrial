@@ -10,7 +10,7 @@ return (
         <div>
         <p className="uppercase text-sm tracking-widest text-gray-600">
             {" "}
-            
+            Permítame presentarme
         </p>
         <h1 className="py-4 text-gray-700">
             Hi, I'am <span className="text-[#C58940]">Renz</span>
