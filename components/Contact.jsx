@@ -25,16 +25,10 @@ function Contact() {
                 />
               </div>
               <div>
-                <h2 className="py-2">Renz Rainier Pasagdan</h2>
-                <p>Front-End Wanna Be</p>
+                <h2 className="py-2"><span className="text-[#C58940]">Renz Rainier Pasagdan</span></h2>
+                <p>A Future Full-Stack Dev</p>
                 <p className="py-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam nulla erat, accumsan dapibus fringilla vel, iaculis id
-                  purus. Fusce accumsan quam sed mollis varius. Aliquam
-                  dignissim sollicitudin orci, ut commodo turpis porttitor quis.
-                  Etiam non risus eget ante suscipit efficitur in quis diam.
-                  Nullam dignissim non enim sed scelerisque. Sed posuere in
-                  justo sit amet luctus.
+                  You can very easily contact me trough this social media platforms
                 </p>
               </div>
               <div>
