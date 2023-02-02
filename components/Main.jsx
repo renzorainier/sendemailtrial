@@ -13,7 +13,7 @@ return (
             LETS BUILD SOMETHING LEGENDARY TOGETHER
         </p>
         <h1 className="py-4 text-gray-700">
-            Hi, I'am <span className="text-[#5651e5]">Renz</span>
+            Hi, I'am <span className="text-[#C58940]">Renz</span>
         </h1>
         <h1 className="py-2 text-gray-700">A Future Full-Stack Dev</h1>
         <p className="py-2 text-gray-600 max-w-[70%] m-auto">
