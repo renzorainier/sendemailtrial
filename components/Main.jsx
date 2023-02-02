@@ -20,7 +20,7 @@ return (
             Just a <span className="text-[#C58940]">curious</span> student currently addicted to coding
         </p>
         <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-[#C58940] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+            <div className="rounded-full shadow-lg shadow-[#E5BA73] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
             <FaFacebook />
             </div>
             <div className="rounded-full shadow-lg shadow-[#C58940] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
