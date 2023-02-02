@@ -7,9 +7,9 @@ function About() {
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#C58940]">About</p>
           <h2 className="py-4">Who I am</h2>
-          <p className="py-2 text-gray-600">//I am Renz Rainier Pasagdan</p>
+          <p className="py-2 text-gray-600">//My name is Renz Rainier Pasagdan</p>
           <p className="py-2 text-gray-600">
-            I am genuinely 
+            Even as a kid, I am always striving to explore new fields and just be curious in general. Continously looking for new  skills and knowledge to gain. So for the past few months, I thought myself how to code. 
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">Check out some of my latest projects</p>
         </div>
