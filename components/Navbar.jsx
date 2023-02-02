@@ -33,7 +33,7 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <img className="h-20" src="https://cdn-icons-png.flaticon.com/512/9168/9168209.png" alt="" />
+        <img className="h-10" src="https://cdn-icons-png.flaticon.com/512/9168/9168209.png" alt="" />
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
