@@ -76,12 +76,8 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src="/../public/assets/netflix.png"
-                alt="/"
-                width="87"
-                height="35"
-              />
+            <img className="h-10" src="https://cdn-icons-png.flaticon.com/512/9168/9168209.png" alt="" />
+
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
