@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu, AiOutlineMail, AiFillInstagram } from "react-icons/ai";
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -10,7 +10,7 @@ return (
         <div>
         <p className="uppercase text-sm tracking-widest text-gray-600">
             {" "}
-            LETS BUILD SOMETHING LEGENDARY TOGETHER
+            
         </p>
         <h1 className="py-4 text-gray-700">
             Hi, I'am <span className="text-[#C58940]">Renz</span>
@@ -24,13 +24,13 @@ return (
             <FaFacebook />
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-            <FaGithub />
+            <AiFillInstagram />
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
             <AiOutlineMail />
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-            <BsFillPersonLinesFill />
+            <FaGithub />
             </div>
         </div>
         </div>
