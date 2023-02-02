@@ -32,7 +32,7 @@ const Navbar = () => {
           : "fixed w-full h-20  z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-white">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-[#f3efde]">
         <img className="h-10" src="https://cdn-icons-png.flaticon.com/512/9168/9168209.png" alt="" />
         <div>
           <ul className="hidden md:flex">
