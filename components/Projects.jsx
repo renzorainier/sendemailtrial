@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="p-4 text-xl tracking-widest uppercase text-[#5651e5]">
+        <p className="p-4 text-xl tracking-widest uppercase text-[#C58940]">
           Projects
         </p>
         <h2 className="p-4">What I've Build</h2>
