@@ -19,7 +19,7 @@ return (
         <p className="py-2 text-gray-600 max-w-[70%] m-auto">
             Just a <span className="text-[#C58940]">curious</span> student currently addicted to coding
         </p>
-        <div onClick={fb} className="flex items-center justify-between max-w-[330px] m-auto py-4">
+        <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
             <FaFacebook />
             </div>
