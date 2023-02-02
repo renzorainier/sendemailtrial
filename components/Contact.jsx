@@ -28,11 +28,11 @@ function Contact() {
                 <h2 className="py-2"><span className="text-[#C58940]">Renz Rainier Pasagdan</span></h2>
                 <p>A Future Full-Stack Dev</p>
                 <p className="py-4">
-                  You can very easily contact me trough this social media platforms
+                  You can very easily contact me through this social media platforms
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8">Connect with me</p>
+                <p className="uppercase pt-8">Social Media Accounts</p>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
                     <FaFacebook />
