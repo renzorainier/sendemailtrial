@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail, AiFillInstagram } from "react-icons/ai";
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi"
@@ -44,7 +44,7 @@ function Contact() {
                     <AiOutlineMail />
                   </div>
                   <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <BsFillPersonLinesFill />
+                    <AiFillInstagram />
                   </div>
                 </div>
               </div>
