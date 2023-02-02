@@ -110,7 +110,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="py-4">
-              <p className="uppercase tracking-widest text-[#e8c284]">
+              <p className="uppercase tracking-widest text-[#C58940]">
                 Let's Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
