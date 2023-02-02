@@ -15,7 +15,7 @@ function Contact() {
         <h2 className="py-4">Let's get in touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-[#e8c284] rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
                 <img
@@ -34,16 +34,16 @@ function Contact() {
               <div>
                 <p className="uppercase pt-8">Social Media Accounts</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                  <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
                     <FaFacebook />
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                  <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
                     <FaGithub />
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                  <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
                     <AiOutlineMail />
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                  <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
                     <BsFillPersonLinesFill />
                   </div>
                 </div>
@@ -53,7 +53,7 @@ function Contact() {
 
           {/* right */}
 
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="col-span-3 w-full h-auto shadow-xl shadow-[#e8c284] rounded-xl lg:p-4">
             <div className="p-4">
               <form>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -92,7 +92,7 @@ function Contact() {
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
-          <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+          <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
               <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30}/>
             </div>
           </Link>
