@@ -7,17 +7,9 @@ function About() {
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#C58940]">About</p>
           <h2 className="py-4">Who I am</h2>
-          <p className="py-2 text-gray-600">//I am a beginner developer</p>
+          <p className="py-2 text-gray-600">//I am Renz Rainier Pasagdan</p>
           <p className="py-2 text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            facilisis, orci sit amet rhoncus ornare, sem lacus placerat erat, in
-            blandit lacus est a diam. Fusce arcu eros, congue ac lorem sit amet,
-            iaculis molestie odio. Vivamus scelerisque risus a ante facilisis
-            malesuada. Mauris sed orci at erat sodales sollicitudin eget nec
-            purus. In hac habitasse platea dictumst. Sed ut cursus nunc. Class
-            aptent taciti sociosqu ad litora torquent per conubia nostra, per
-            inceptos himenaeos. Curabitur non elit at velit faucibus lacinia.
-          Aliquam vel erat urna.
+            I am genuinely 
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">Check out some of my latest projects</p>
         </div>
