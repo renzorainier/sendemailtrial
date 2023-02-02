@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail, AiFillInstagram } from "react-icons/ai";
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Link from "next/link";
 
 function Main() {
 return (
