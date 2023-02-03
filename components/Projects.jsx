@@ -5,6 +5,8 @@ import propertyImg from "../public/assets/projects/property.jpg";
 import cryptoImg from "../public/assets/projects/crypto.jpg";
 import netflixImg from "../public/assets/projects/netflix.jpg";
 import twitchImg from "../public/assets/projects/twitch.jpg";
+import todoImg from "../public/assets/projects/todo.jpg";
+import chairsImg from "../public/assets/projects/chairs.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -17,24 +19,34 @@ const Projects = () => {
         <h2 className="p-4">What I've Build</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
+            title="Todo App"
+            backgroundImg={todoImg}
+            check="https://todo-renz.pages.dev/"
+          />
+          <ProjectItem
+            title="Online Chair Shop"
+            backgroundImg={chairsImg}
+            check="https://chairs.pages.dev/4-1"
+          />
+          <ProjectItem
             title="Property Finder"
             backgroundImg={propertyImg}
-            projectUrl="/property"
+            check="/property"
           />
           <ProjectItem
             title="Crypto App"
             backgroundImg={cryptoImg}
-            projectUrl="/property"
+            check="/property"
           />
           <ProjectItem
             title="Twitch App"
             backgroundImg={twitchImg}
-            projectUrl="/property"
+            check="/property"
           />
           <ProjectItem
             title="Netflix App"
             backgroundImg={netflixImg}
-            projectUrl="/property"
+            check="/property"
           />
         </div>
       </div>

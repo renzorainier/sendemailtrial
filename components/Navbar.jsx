@@ -33,11 +33,14 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-[#f3efde]">
-        <img
-          className="h-10"
-          src="https://cdn-icons-png.flaticon.com/512/9168/9168209.png"
-          alt=""
-        />
+        <div>
+          <Image
+            src="/../public/assets/teen.png"
+            width="70"
+            height="70"
+            alt="/"
+          />
+        </div>
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -80,11 +83,14 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <img
-                className="h-10"
-                src="https://cdn-icons-png.flaticon.com/512/9168/9168209.png"
-                alt=""
-              />
+              <div>
+                <Image
+                  src="/../public/assets/teen.png"
+                  width="70"
+                  height="70"
+                  alt="/"
+                />
+              </div>
 
               <div
                 onClick={handleNav}

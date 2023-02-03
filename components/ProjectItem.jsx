@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
+const ProjectItem = ({ title, backgroundImg, check }) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-[#e8c284] rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
       <Image
@@ -15,9 +15,9 @@ const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
           {title}
         </h3>
         <p className="pb-4 pt-2 text-white text-center">React JS</p>
-        <Link href={projectUrl}>
+        <Link href={check}>
           <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
-            More Info
+            Try Out
           </p>
         </Link>
       </div>
