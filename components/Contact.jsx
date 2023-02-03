@@ -33,20 +33,26 @@ function Contact() {
               </div>
               <div>
                 <p className="uppercase pt-8">Social Media Accounts</p>
-                <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <FaFacebook />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <AiFillInstagram />
-                  </div>
-                </div>
+                <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+            <a href="https://www.facebook.com/renz.rainier212?mibextid=ZbWKwL">
+              <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                <FaFacebook />
+              </div>
+            </a>
+            <a href="https://www.instagram.com/ridiculousrenz/?funlid=CfOWOmLowDRYXvqS">
+              <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                <AiFillInstagram />
+              </div>
+            </a>
+            <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+              <AiOutlineMail />
+            </div>
+            <a href="https://github.com/renzorainier">
+              <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
+                <FaGithub />
+              </div>
+            </a>
+          </div>
               </div>
             </div>
           </div>
