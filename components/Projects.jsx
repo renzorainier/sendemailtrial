@@ -16,7 +16,7 @@ const Projects = () => {
         <p className="p-4 text-xl tracking-widest uppercase text-[#C58940]">
           Projects
         </p>
-        <h2 className="p-4">What I've Build</h2>
+        <h2 className="p-4">What I have Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Todo App"
