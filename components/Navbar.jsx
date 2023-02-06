@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import teen from "./../public/assets/teen.png"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -35,7 +36,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-[#f3efde]">
         <div>
           <Image
-            src="/../public/assets/teen.png"
+            src={teen}
             width="70"
             height="70"
             alt="/"
@@ -85,7 +86,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <div>
                 <Image
-                  src="/../public/assets/teen.png"
+                  src={teen}
                   width="70"
                   height="70"
                   alt="/"
