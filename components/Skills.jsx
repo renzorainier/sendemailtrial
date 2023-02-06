@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link"
+import html from "./../public/skills/html.png"
 
 const Skills = () => {
   return (
@@ -16,7 +18,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/skills/html.png"
+                  src={html}
                   width="64"
                   height="64"
                   alt="/"
