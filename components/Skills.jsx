@@ -2,6 +2,15 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link"
 import html from "./../public/skills/html.png"
+import css from "./../public/skills/css.png"
+import js from "./../public/skills/javascript.png"
+import python from "./../public/skills/python.png"
+import c from "./../public/skills/c.png"
+import react from "./../public/skills/c.png"
+import tailwind from "./../public/skills/tailwind.png"
+import firebase from "./../public/skills/firebase.png"
+import github from "./../public/skills/github.png"
+
 
 const Skills = () => {
   return (
