@@ -8,12 +8,27 @@ import {
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
+import Image from "next/image";
+
+import pic from "./../public/skills/pic.jpg";
 
 function Main() {
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
+          <div className="flex pb-8 justify-center">
+            <div className="rounded-full w-40 h-40 overflow-hidden">
+              <Image
+                className="object-cover object-center w-full h-full"
+                src={pic}
+                alt="/"
+                width="160"
+                height="160"
+              />
+            </div>
+          </div>
+
           <p className="uppercase text-sm tracking-widest text-gray-600">
             {" "}
             Permítame presentarme
