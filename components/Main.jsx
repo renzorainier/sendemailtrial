@@ -9,7 +9,6 @@ import { FaFacebook, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
 import Image from "next/image";
-
 import pic from "./../public/skills/pic.jpg";
 
 function Main() {
