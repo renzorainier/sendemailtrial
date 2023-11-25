@@ -6,6 +6,7 @@ import css from "./../public/skills/css.png"
 import js from "./../public/skills/javascript.png"
 import python from "./../public/skills/python.png"
 import c from "./../public/skills/c.png"
+import cpp from "./../public/skills/cpp.png"
 import react from "./../public/skills/react.png"
 import tailwind from "./../public/skills/tailwind.png"
 import firebase from "./../public/skills/firebase.png"
@@ -102,7 +103,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={c}
+                  src={cpp}
                   width="64"
                   height="64"
                   alt="/"
