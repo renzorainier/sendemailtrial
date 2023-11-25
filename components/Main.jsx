@@ -40,8 +40,7 @@ function Main() {
           </h1>
           <h1 className="py-2 text-gray-700">A Future Software Engineer</h1>
           <p className="py-2 text-gray-600 max-w-[70%] m-auto">
-            Just a <span className="text-[#C58940]">curious</span> student
-            currently addicted to coding
+            Currently taking BS <span className="text-[#C58940]">Computer Science</span> at TIP QC.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a href="https://www.facebook.com/renz.rainier212?mibextid=ZbWKwL">
