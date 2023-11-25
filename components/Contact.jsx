@@ -26,7 +26,7 @@ function Contact() {
               </div>
               <div>
                 <h2 className="py-2"><span className="text-[#C58940]">Renz Rainier Pasagdan</span></h2>
-                <p>A Future Full-Stack Dev</p>
+                <p>Your Future Software Engineer </p>
                 <p className="py-4">
                   You can very easily contact me through this social media platforms
                 </p>
