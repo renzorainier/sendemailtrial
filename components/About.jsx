@@ -17,7 +17,7 @@ function About() {
             <span className="text-[#C58940]">Renz Rainier Pasagdan</span>
           </p>
           <p className="py-2 text-gray-600">
-          From a young age, I have possessed an innate curiosity and an unwavering desire to delve into uncharted territories. Constantly seeking fresh skills and expanding my knowledge base has always been my driving force. It was against this backdrop that I decided to embark on an exhilarating journey of learning how to code. Over the past few months, I have wholeheartedly embraced this challenge, dedicating myself to mastering the intricacies of programming. As a testament to my progress, I have successfully completed numerous projects, including the very website you are currently exploring.
+                Programming wasn't really my thing; I was more of an art person. But, I figured, why not give it a shot and teach myself? So, I dove in, and in the past few months, I've fully embraced the challenge, focusing on mastering the basics of programming. As proof of my progress, I've successfully completed several projects, including the website you're currently exploring. Hence, when I started college, I chose computer science, and I am very excited about the journey ahead. Always eager to learn and improve, I can't wait to earn that degree and become a software engineer someday. That being said, If you think I can help you create a website for business or personal use or any other technical matters, I'd be more than happy to take you up on the offer!
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">
             Check out some of my latest projects
