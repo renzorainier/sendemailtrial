@@ -33,7 +33,7 @@ function Main() {
 
           <p className="uppercase text-sm tracking-widest text-gray-600">
             {" "}
-            Permítame presentarme
+            Permítame presentarme Hello ebryone
           </p>
           <h1 className="py-4 text-gray-700">
             Hi, I am <span className="text-[#C58940]">Renz</span> :)
