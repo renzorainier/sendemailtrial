@@ -1,5 +1,6 @@
-import { EmailTemplate } from '../../components/EmailTemplate';
 import { Resend } from 'resend';
+import ReactDOMServer from 'react-dom/server';
+import EmailTemplate from '../../components/email-template';
 
 const resend = new Resend('re_9gSj9h9A_9fwu4x3z6i6FaM9JjoNuGcZ3');
 
@@ -15,11 +16,16 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Missing required fields' });
     }
 
+    // Render the EmailTemplate to a string (HTML format)
+    const emailContent = ReactDOMServer.renderToString(
+      <EmailTemplate firstName={firstName} />
+    );
+
     const { data, error } = await resend.emails.send({
       from: 'Acme <onboarding@resend.dev>',
       to,
       subject,
-      react: React.createElement(EmailTemplate, { firstName }),
+      html: emailContent, // Send the rendered HTML content
     });
 
     if (error) {

@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const EmailSender = () => {
-  const [firstName, setFirstName] = useState('John');
-
   const handleSendEmail = async () => {
     try {
       const response = await fetch('/api/email', {
@@ -13,7 +11,7 @@ const EmailSender = () => {
         body: JSON.stringify({
           to: ['renzopasagdan@gmail.com'],
           subject: 'Hello world',
-          firstName,
+          firstName: 'John',
         }),
       });
 
@@ -34,7 +32,6 @@ const EmailSender = () => {
 
   return (
     <div>
-      <h2>Send Email</h2>
       <button onClick={handleSendEmail} className="bg-blue-500 text-white p-2 rounded">
         Send Email
       </button>
