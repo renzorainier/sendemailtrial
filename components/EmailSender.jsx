@@ -3,7 +3,7 @@ import React from 'react';
 const EmailSender = () => {
   const handleSendEmail = async () => {
     try {
-      const response = await fetch('/api/send', {
+      const response = await fetch('/api/route', {
         method: 'POST', // Use POST since the API route expects a POST request.
       });
 
