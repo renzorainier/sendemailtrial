@@ -57,7 +57,7 @@ const styles = {
     lineHeight: '1.6',
   },
   header: {
-    backgroundColor: '#6a1b9a', // Deeper purple for a richer look
+    backgroundColor: '#C58940', // Deeper purple for a richer look
     color: '#ffffff',
     padding: '25px 20px',
     borderRadius: '10px 10px 0 0',
