@@ -28,7 +28,7 @@ export default async function handler(req, res) {
     );
 
     const { data, error } = await resend.emails.send({
-      from: 'PORTFOLIO <onboarding@resend.dev>',
+      from: 'PORTFOLIO <notifications@vercel.com>',
       to, // Receiver email: 'renzopasagdan@gmail.com'
       subject,
       html: emailContent, // Send the rendered HTML content
