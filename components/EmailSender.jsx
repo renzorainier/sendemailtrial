@@ -6,6 +6,7 @@ const EmailSender = () => {
     phoneNumber: '',
     email: '',
     subject: '',
+    message: '', // New state for the message
   });
 
   const handleChange = (e) => {
@@ -31,7 +32,7 @@ const EmailSender = () => {
           firstName: formData.name,
           phoneNumber: formData.phoneNumber,
           senderEmail: formData.email,
-          message: formData.subject, // You can adjust the mapping if needed
+          message: formData.message, // Send the message field
         }),
       });
 
@@ -90,9 +91,19 @@ const EmailSender = () => {
             <label className="uppercase text-sm py-2">Subject</label>
             <textarea
               className="border-2 rounded-lg p-3 border-gray-300"
-              rows="10"
+              rows="5"
               name="subject"
               value={formData.subject}
+              onChange={handleChange}
+            ></textarea>
+          </div>
+          <div className="flex flex-col py-2">
+            <label className="uppercase text-sm py-2">Message</label>
+            <textarea
+              className="border-2 rounded-lg p-3 border-gray-300"
+              rows="10"
+              name="message"
+              value={formData.message}
               onChange={handleChange}
             ></textarea>
           </div>
