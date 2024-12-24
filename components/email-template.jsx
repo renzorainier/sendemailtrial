@@ -2,9 +2,9 @@ import React from 'react';
 
 const EmailTemplate = ({ firstName, phoneNumber, senderEmail, message }) => (
   <div className="bg-gray-100 p-6 rounded-xl shadow-lg max-w-2xl mx-auto">
-    <h1 className="text-3xl font-semibold text-gray-800 mb-4">
-      Hello, {firstName}!
-    </h1>
+    {/* <h1 className="text-3xl font-semibold text-gray-800 mb-4">
+      Hello, this email is from {firstName}!
+    </h1> */}
     <p className="text-lg text-gray-600 mb-6">
       You've received a new message. Below are the details:
     </p>
