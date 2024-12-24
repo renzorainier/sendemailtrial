@@ -6,6 +6,8 @@ import About from "components/About"
 import Skills from "components/Skills"
 import Projects from "components/Projects"
 import Contact from "components/Contact"
+import EmailSender from "components/EmailSender";
+
 
 
 export default function Home() {
@@ -23,6 +25,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
+      <EmailSender/>
     </div>
   )
 }

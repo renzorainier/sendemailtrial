@@ -25,23 +25,26 @@ function Main() {
             <div className="rounded-full shadow-xl shadow-[#e8c284] w-40 h-40 overflow-hidden">
               <img
                 className="object-cover w-full h-full"
-                src="/skills/pic.jpg"
+                src="/skills/igop.jpg"
                 alt="/"
               />
             </div>
           </div>
 
-          <p className="uppercase text-sm tracking-widest text-gray-600">
+          <p className=" tracking-widest text-gray-600">
             {" "}
-            Permítame presentarme Hello ebryone
+            Permítame presentarme
           </p>
           <h1 className="py-4 text-gray-700">
             Hi, I am <span className="text-[#C58940]">Renz</span> :)
           </h1>
           <h1 className="py-2 text-gray-700">A Future Software Engineer</h1>
           <p className="py-2 text-gray-600 max-w-[70%] m-auto">
-            Currently taking BS <span className="text-[#C58940]">Computer Science</span> at TIP QC.
+            Currently a <span className="text-[#C58940]">2nd-year</span> student
+            taking BS <span className="text-[#C58940]">Computer Science</span>{" "}
+            at TIP QC.
           </p>
+
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a href="https://www.facebook.com/renz.rainier212?mibextid=ZbWKwL">
               <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">

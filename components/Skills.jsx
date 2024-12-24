@@ -4,6 +4,7 @@ import Link from "next/link"
 import html from "./../public/skills/html.png"
 import css from "./../public/skills/css.png"
 import js from "./../public/skills/javascript.png"
+import java from "./../public/skills/java.png"
 import python from "./../public/skills/python.png"
 import c from "./../public/skills/c.png"
 import cpp from "./../public/skills/cpp.png"
@@ -73,6 +74,22 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
+                  src={java}
+                  width="64"
+                  height="64"
+                  alt="/"
+                />
+              </div>
+              <div className="flex flex-col items-center justfify-center">
+                <h3>Java</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl shadow-[#e8c284] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
                   src={python}
                   width="64"
                   height="64"
@@ -125,7 +142,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justfify-center">
-                <h3>React</h3>
+                <h3>React JS/ Native</h3>
               </div>
             </div>
           </div>
