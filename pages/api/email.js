@@ -19,7 +19,12 @@ export default async function handler(req, res) {
 
     // Render the EmailTemplate to a string (HTML format)
     const emailContent = ReactDOMServer.renderToString(
-      <EmailTemplate firstName={firstName} />
+      <EmailTemplate
+        firstName={firstName}
+        phoneNumber={phoneNumber}
+        senderEmail={senderEmail}
+        message={message}
+      />
     );
 
     const { data, error } = await resend.emails.send({
