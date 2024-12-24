@@ -3,8 +3,16 @@ import React from 'react';
 const EmailSender = () => {
   const handleSendEmail = async () => {
     try {
-      const response = await fetch('/api/route', {
-        method: 'POST', // Use POST since the API route expects a POST request.
+      const response = await fetch('/api/email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          to: ['renzopasagdan@gmail.com'],
+          subject: 'Hello world',
+          firstName: 'John',
+        }),
       });
 
       const result = await response.json();
