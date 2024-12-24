@@ -28,7 +28,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
 import  {NextApiRequest, NextApiResponse } from 'next';
 import { NextResponse } from 'next/server';
-import { EmailTemplate } from '../../components/InEmail';
+import { EmailTemplate } from '../../components/email-template';
 import { Resend } from 'resend';
 
 const resend = new Resend('re_9gSj9h9A_9fwu4x3z6i6FaM9JjoNuGcZ3');
