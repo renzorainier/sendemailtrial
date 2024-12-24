@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/api/email.js"  ],
   "exclude": [
     "node_modules"
   ]
