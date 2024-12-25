@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 
 const EmailSender = () => {
-  const [receiverEmail, setReceiverEmail] = useState("");
+  const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [name, setName] = useState("");
   const [event, setEvent] = useState("");
@@ -11,7 +11,7 @@ const EmailSender = () => {
   const sendEmail = async () => {
     try {
       const response = await axios.post("/api/send-email", {
-        receiverEmail,
+        email,
         subject,
         name,
         event,
@@ -25,39 +25,52 @@ const EmailSender = () => {
   };
 
   return (
-    <div>
-      <h1>Send Email</h1>
-      <input
-        type="email"
-        placeholder="Receiver Email"
-        value={receiverEmail}
-        onChange={(e) => setReceiverEmail(e.target.value)}
-      />
-      <input
-        type="text"
-        placeholder="Subject"
-        value={subject}
-        onChange={(e) => setSubject(e.target.value)}
-      />
-      <input
-        type="text"
-        placeholder="Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-      <input
-        type="text"
-        placeholder="Event"
-        value={event}
-        onChange={(e) => setEvent(e.target.value)}
-      />
-      <input
-        type="date"
-        placeholder="Date"
-        value={date}
-        onChange={(e) => setDate(e.target.value)}
-      />
-      <button onClick={sendEmail}>Send Email</button>
+    <div className="p-4 bg-white shadow-lg rounded-lg max-w-md mx-auto mt-8">
+      <h1 className="text-2xl font-semibold mb-4">Send Email</h1>
+      <form className="space-y-4">
+        <input
+          type="email"
+          placeholder="Recipient Email"
+          className="w-full p-2 border border-gray-300 rounded"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          type="text"
+          placeholder="Subject"
+          className="w-full p-2 border border-gray-300 rounded"
+          value={subject}
+          onChange={(e) => setSubject(e.target.value)}
+        />
+        <input
+          type="text"
+          placeholder="Recipient Name"
+          className="w-full p-2 border border-gray-300 rounded"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <input
+          type="text"
+          placeholder="Event Name"
+          className="w-full p-2 border border-gray-300 rounded"
+          value={event}
+          onChange={(e) => setEvent(e.target.value)}
+        />
+        <input
+          type="text"
+          placeholder="Event Date"
+          className="w-full p-2 border border-gray-300 rounded"
+          value={date}
+          onChange={(e) => setDate(e.target.value)}
+        />
+        <button
+          type="button"
+          onClick={sendEmail}
+          className="w-full py-2 bg-blue-500 text-white rounded"
+        >
+          Send Email
+        </button>
+      </form>
     </div>
   );
 };
