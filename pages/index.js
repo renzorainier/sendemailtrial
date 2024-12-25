@@ -25,7 +25,6 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
-      <EmailSender/>
     </div>
   )
 }

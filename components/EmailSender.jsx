@@ -6,19 +6,19 @@ const EmailSender = () => {
     phoneNumber: '',
     email: '',
     subject: '',
-    message: '', // New state for the message
+    message: '',
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
+    setFormData((prevData) => ({
+      ...prevData,
       [name]: value,
-    });
+    }));
   };
 
   const handleSendEmail = async (e) => {
-    e.preventDefault(); // Prevent default form submission
+    e.preventDefault();
 
     try {
       const response = await fetch('/api/email', {
@@ -27,12 +27,12 @@ const EmailSender = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          to: ['renzopasagdan@gmail.com'], // Fixed recipient email
+          to: ['renzopasagdan@gmail.com'],
           subject: formData.subject,
           firstName: formData.name,
           phoneNumber: formData.phoneNumber,
           senderEmail: formData.email,
-          message: formData.message, // Send the message field
+          message: formData.message,
         }),
       });
 
@@ -41,6 +41,13 @@ const EmailSender = () => {
       if (response.ok) {
         alert('Email sent successfully!');
         console.log('Response:', result);
+        setFormData({
+          name: '',
+          phoneNumber: '',
+          email: '',
+          subject: '',
+          message: '',
+        });
       } else {
         alert('Failed to send email.');
         console.error('Error:', result.error);
@@ -52,62 +59,89 @@ const EmailSender = () => {
   };
 
   return (
-    <div className="col-span-3 w-full h-auto shadow-xl shadow-[#e8c284] rounded-xl lg:p-4">
-      <div className="p-4">
+    <div className="col-span-3 w-full h-auto shadow-[#e8c284] rounded-xl  ">
+      <div className="p-6">
         <form onSubmit={handleSendEmail}>
-          <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+          <div className="grid md:grid-cols-2 gap-6 w-full">
+            {/* Name Field */}
             <div className="flex flex-col">
-              <label className="uppercase text-sm py-2">Name</label>
+              <label htmlFor="name" className="uppercase text-sm font-bold mb-2">Name</label>
               <input
-                className="border-2 rounded-lg p-3 flex border-gray-300"
+                id="name"
                 type="text"
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
+                className="border-2 rounded-lg p-3 border-gray-300 focus:outline-none focus:border-[#e8c284]"
+                placeholder="Enter your name"
+                required
               />
             </div>
+            {/* Phone Number Field */}
             <div className="flex flex-col">
-              <label className="uppercase text-sm py-2">Phone Number</label>
+              <label htmlFor="phoneNumber" className="uppercase text-sm font-bold mb-2">Phone Number</label>
               <input
-                className="border-2 rounded-lg p-3 flex border-gray-300"
+                id="phoneNumber"
                 type="text"
                 name="phoneNumber"
                 value={formData.phoneNumber}
                 onChange={handleChange}
+                className="border-2 rounded-lg p-3 border-gray-300 focus:outline-none focus:border-[#e8c284]"
+                placeholder="Enter your phone number"
               />
             </div>
           </div>
-          <div className="flex flex-col py-2">
-            <label className="uppercase text-sm py-2">Email</label>
+
+          {/* Email Field */}
+          <div className="flex flex-col py-4">
+            <label htmlFor="email" className="uppercase text-sm font-bold mb-2">Email</label>
             <input
-              className="border-2 rounded-lg p-3 flex border-gray-300"
+              id="email"
               type="email"
               name="email"
               value={formData.email}
               onChange={handleChange}
+              className="border-2 rounded-lg p-3 border-gray-300 focus:outline-none focus:border-[#e8c284]"
+              placeholder="Enter your email"
+              required
             />
           </div>
-          <div className="flex flex-col py-2">
-            <label className="uppercase text-sm py-2">Subject</label>
+
+          {/* Subject Field */}
+          <div className="flex flex-col py-4">
+            <label htmlFor="subject" className="uppercase text-sm font-bold mb-2">Subject</label>
             <textarea
-              className="border-2 rounded-lg p-3 border-gray-300"
-              rows="5"
+              id="subject"
               name="subject"
               value={formData.subject}
               onChange={handleChange}
+              className="border-2 rounded-lg p-3 border-gray-300 focus:outline-none focus:border-[#e8c284]"
+              rows="3"
+              placeholder="Enter the email subject"
+              required
             ></textarea>
           </div>
-          <div className="flex flex-col py-2">
-            <label className="uppercase text-sm py-2">Message</label>
+
+          {/* Message Field */}
+          <div className="flex flex-col py-4">
+            <label htmlFor="message" className="uppercase text-sm font-bold mb-2">Message</label>
             <textarea
-              className="border-2 rounded-lg p-3 border-gray-300"
-              rows="10"
+              id="message"
               name="message"
               value={formData.message}
               onChange={handleChange}
+              className="border-2 rounded-lg p-3 border-gray-300 focus:outline-none focus:border-[#e8c284]"
+              rows="6"
+              placeholder="Enter your message"
+              required
             ></textarea>
           </div>
-          <button className="w-full p-4 shadow-[#e8c284] mt-4">
+
+          {/* Submit Button */}
+          <button
+            type="submit"
+            className="w-full bg-[#e8c284] text-white font-bold p-4 rounded-lg shadow-md hover:bg-[#d1a869] transition duration-200"
+          >
             Send Message
           </button>
         </form>
@@ -117,46 +151,3 @@ const EmailSender = () => {
 };
 
 export default EmailSender;
-
-// import React from 'react';
-
-// const EmailSender = () => {
-//   const handleSendEmail = async () => {
-//     try {
-//       const response = await fetch('/api/email', {
-//         method: 'POST',
-//         headers: {
-//           'Content-Type': 'application/json',
-//         },
-//         body: JSON.stringify({
-//           to: ['renzopasagdan@gmail.com'],
-//           subject: 'Hello world',
-//           firstName: 'John',
-//         }),
-//       });
-
-//       const result = await response.json();
-
-//       if (response.ok) {
-//         alert('Email sent successfully!');
-//         console.log('Response:', result);
-//       } else {
-//         alert('Failed to send email.');
-//         console.error('Error:', result.error);
-//       }
-//     } catch (error) {
-//       alert('An error occurred while sending the email.');
-//       console.error('Error:', error);
-//     }
-//   };
-
-//   return (
-//     <div>
-//       <button onClick={handleSendEmail} className="bg-blue-500 text-white p-2 rounded">
-//         Send Email
-//       </button>
-//     </div>
-//   );
-// };
-
-// export default EmailSender;

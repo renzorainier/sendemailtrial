@@ -19,10 +19,10 @@ export const EmailTemplate = ({ firstName, phoneNumber, senderEmail, message }) 
       <div style={styles.content}>
         <p style={styles.message}>
           {greeting},<br />
-          You've received a new message. Below are the details:
+          You&apos;ve received a new message. Below are the details:
         </p>
         <div style={styles.detail}>
-          <strong style={styles.detailLabel}>Sender's Email:</strong>
+          <strong style={styles.detailLabel}>Sender&apos;s Email:</strong>
           <p style={styles.detailContent}>{senderEmail}</p>
         </div>
         <div style={styles.detail}>

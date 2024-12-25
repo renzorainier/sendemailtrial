@@ -1,14 +1,6 @@
 import React, { useState } from "react";
-import { FaChevronDown } from "react-icons/fa";
-import {
-  AiOutlineScan,
-  AiOutlineClose,
-  AiOutlineMenu,
-  AiOutlineMail,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaFacebook, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaChevronDown, FaFacebook, FaGithub } from "react-icons/fa";
+import { AiOutlineScan, AiOutlineMail, AiFillInstagram } from "react-icons/ai";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -18,82 +10,68 @@ function Main() {
   const toggleCard1 = () => setCard1Expanded(!card1Expanded);
 
   return (
-    <div id="home" className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-        <div>
-          <div className="flex pb-8 justify-center">
-            <div className="rounded-full shadow-xl shadow-[#e8c284] w-40 h-40 overflow-hidden">
-              <img
-                className="object-cover w-full h-full"
-                src="/skills/igop.jpg"
-                alt="/"
-              />
-            </div>
-          </div>
-
-          <p className=" tracking-widest text-gray-600">
-            {" "}
-            Permítame presentarme
-          </p>
-          <h1 className="py-4 text-gray-700">
-            Hi, I am <span className="text-[#C58940]">Renz</span> :)
-          </h1>
-          <h1 className="py-2 text-gray-700">A Future Software Engineer</h1>
-          <p className="py-2 text-gray-600 max-w-[70%] m-auto">
-            Currently a <span className="text-[#C58940]">2nd-year</span> student
-            taking BS <span className="text-[#C58940]">Computer Science</span>{" "}
-            at TIP QC.
-          </p>
-
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <a href="https://www.facebook.com/renz.rainier212?mibextid=ZbWKwL">
-              <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                <FaFacebook />
-              </div>
-            </a>
-            <a href="https://www.instagram.com/ridiculousrenz/?funlid=CfOWOmLowDRYXvqS">
-              <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                <AiFillInstagram />
-              </div>
-            </a>
-            <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-              <AiOutlineMail />
-            </div>
-            <a href="https://github.com/renzorainier">
-              <div className="rounded-full shadow-lg shadow-[#e8c284] p-6 cursor-pointer hover:scale-110 ease-in duration-200">
-                <FaGithub />
-              </div>
-            </a>
-          </div>
-          <div className="bg-white mt-5 shadow-xl shadow-[#e8c284] rounded-xl">
-            <div className="px-4 py-5 sm:p-6 cursor-pointer">
-              <div className="flex items-center " onClick={toggleCard1}>
-                <h3 className="text-lg m-auto text-gray-700">
-                  Recent Projects
-                </h3>
-                <div className="flex items-center">
-                  <FaChevronDown
-                    className={`transition-transform ${
-                      card1Expanded ? "rotate-180" : ""
-                    }`}
-                  />
-                </div>
-              </div>
-              {card1Expanded && (
-                <div className="text-sm  pt-5  text-gray-500">
-                  <a href="https://scans-scas.vercel.app">
-                    <div className="bg-[#FAF8F1] rounded-lg shadow-lg shadow-[#e8c284] p-4 flex items-center justify-center">
-                      <AiOutlineScan className="text-2xl  text-gray-700 mr-2" />
-                      <h3 className="text-sm font-bold text-gray-700">
-                        QR code attendance system
-                      </h3>
-                    </div>
-                  </a>
-                </div>
-              )}
-            </div>
+    <div id="home" className="w-full h-screen flex items-center justify-center ">
+      <div className="max-w-[1240px] w-full mx-auto px-4 sm:px-8 lg:px-16 text-center">
+        {/* Profile Image */}
+        <div className="flex justify-center mb-6">
+          <div className="rounded-full shadow-xl shadow-[#e8c284] w-40 h-40 overflow-hidden">
+            <Image
+              className="object-cover"
+              src="/skills/igop.jpg" // Local path to the image
+              alt="Profile"
+              width={160} // Width of the image
+              height={160} // Height of the image
+            />
           </div>
         </div>
+
+        {/* Introduction */}
+        <p className="text-gray-600 tracking-widest">Permítame presentarme</p>
+        <h1 className="py-4 text-3xl sm:text-4xl font-semibold text-gray-700">
+          Hi, I am <span className="text-[#C58940]">Renz</span> :)
+        </h1>
+        <h2 className="py-2 text-2xl sm:text-3xl text-gray-700">
+          A Future Software Engineer
+        </h2>
+        <p className="py-2 text-gray-600 max-w-[70%] mx-auto">
+          Currently a <span className="text-[#C58940]">2nd-year</span> student
+          taking BS <span className="text-[#C58940]">Computer Science</span> at TIP QC.
+        </p>
+
+        {/* Social Icons */}
+        <div className="flex items-center justify-center space-x-6 mt-6">
+          <a
+            href="https://www.facebook.com/renz.rainier212?mibextid=ZbWKwL"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full shadow-lg shadow-[#e8c284] p-4 hover:scale-110 hover:shadow-[#C58940] transition-all duration-300"
+          >
+            <FaFacebook className="text-xl" />
+          </a>
+          <a
+            href="https://www.instagram.com/ridiculousrenz/?funlid=CfOWOmLowDRYXvqS"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full shadow-lg shadow-[#e8c284] p-4 hover:scale-110 hover:shadow-[#C58940] transition-all duration-300"
+          >
+            <AiFillInstagram className="text-xl" />
+          </a>
+          <a
+            href="mailto:renzorainier@example.com"
+            className="rounded-full shadow-lg shadow-[#e8c284] p-4 hover:scale-110 hover:shadow-[#C58940] transition-all duration-300"
+          >
+            <AiOutlineMail className="text-xl" />
+          </a>
+          <a
+            href="https://github.com/renzorainier"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full shadow-lg shadow-[#e8c284] p-4 hover:scale-110 hover:shadow-[#C58940] transition-all duration-300"
+          >
+            <FaGithub className="text-xl" />
+          </a>
+        </div>
+        
       </div>
     </div>
   );
